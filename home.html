@@ -17,42 +17,51 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 100px;
-        font-family: 'Rubik Beastly';
+        /* font-family: 'Rubik Beastly'; */
+        font-family: myFirstFont;
     }
     
     #myVideo {
+        z-index: -1;
         position: fixed;
         right: 0;
         bottom: 0;
         min-width: 100%;
         min-height: 100%;
-        filter: invert(100%);
     }
     /* Add some content at the bottom of the video/page */
     
     .content {
         bottom: 0;
-        color: black;
+        color: rgb(234, 239, 241);
         /* background: rgba(0, 0, 0, 0.5);
         color: #f1f1f1; */
         /* width: 100%; */
         padding: 20px;
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 100px;
-        font-family: 'Rubik Beastly';
+        font-family: myFirstFont;
     }
     
     h1 {
         font-size: 100px;
     }
+    /* @font-face {
+        font-family: myFirstFont;
+        src: url('img/back8.jpg');
+    } */
+    
+    body {
+        font-family: "img/back8.jpg";
+    }
 </style>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -126,7 +135,7 @@
 
     <!-- The video -->
     <video autoplay muted loop id="myVideo">
-    <source src="img/video(2).mp4" type="video/mp4">
+    <source src="img/video (1).mp4" type="video/mp4">
   </video>
 
     <!-- Optional: some overlay text to describe the video -->
