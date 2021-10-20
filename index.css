@@ -3,31 +3,31 @@ img {
     height: 700px;
 }
 
-
-/* .container {
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        max-width: 100%;
-        height: auto;
-    } */
-
-.navbar-nav me-auto mb-2 mb-lg-0 {
+.navbar-nav ms-auto mb-2 mb-lg-0 {
     color: white;
+    overflow: hidden;
 }
 
-.col-1 {
-    width: 600px;
-    height: 0px;
-    margin: 80px 100px 100px 200px;
+.nav-item {
+    font-size: 30px;
+    padding: 10px;
 }
 
-.col-2 {
-    width: 600px;
-    height: 0px;
-    margin: 80px 100px 100px 200px;
+#logo {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    margin-left: 0%;
+    filter: invert(100%);
 }
 
-.bd-placeholder-img {
-    width: 200px;
-    height: 200px;
+#logo1 {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    /* border-radius: 90px; */
+}
+
+.carousel-item {
+    filter: brightness(100%);
 }

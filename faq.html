@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie|Italianno">
+    <link rel="stylesheet" href="index.css" class="rel">
+    <title>faq</title>
+</head>
+
+<style>
+    dl.faq button {
+        margin: 0;
+        padding: 0;
+        margin-top: 1em;
+        font-weight: bold;
+        font-size: 110%;
+        border: thin solid transparent;
+        background-color: transparent;
+        padding-left: 0.125em;
+    }
+    
+    dl dd {
+        margin: 0;
+        padding: 0;
+        margin-left: 1.5em;
+    }
+    
+    dl.faq button:hover,
+    dl.faq button:focus {
+        background-color: #eee;
+    }
+    
+    dl.faq button:focus {
+        border-color: #630;
+    }
+    
+    dl.faq button:hover {
+        text-decoration: underline;
+    }
+    
+    dl.faq button:active {
+        background-color: #bbb;
+    }
+    
+    h1 {
+        font-size: 45px;
+        display: list-item;
+        font-family: 'Cookie';
+    }
+    
+    h2 {
+        font-size: 50px;
+        color: rgb(73, 8, 8);
+        font-family: 'Italianno';
+    }
+    
+    body {
+        background: url('img/back6.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li>
+                        <img src="img/ces logo.jpg " id="logo"></li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about us.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="co ordinators.html">CO-ORDINATORS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="winners.html">WINNERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="faq.html">FAQ</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact us.html">CONTACTS US</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li>
+                        <img src="img/mmmut logo.jpeg " id="logo1"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-white" type="button">Button</button>
+        </div>
+    </nav>
+
+
+    <dl class="faq">
+        <dt>
+              <button aria-expanded="false" aria-controls="faq1_desc" class=""><h1>1.  I don't know much about coding can i participate?</h1></button>
+            </dt>
+        <dd>
+            <p id="faq1_desc" class="desc" style="display: inline-block;">
+                <h2>Yes you can , we organize these events just for you so that you can start coding and improve your skills.</h2>
+            </p>
+        </dd>
+        <dt>
+              <button aria-expanded="false" aria-controls="faq2_desc" class=""><h1>2. Is there any entry fee to take part in this contest?</h1> </button>
+            </dt>
+        <dd>
+            <p id="faq2_desc" class="desc" style="display: inline-block;">
+                <h2>NO , the event is free of cost.</h2>
+            </p>
+        </dd>
+        <dt>
+              <button aria-expanded="false" aria-controls="faq3_desc"><h1>3. Is any pre-requisite knowledge needed to take part in the event?</h1></button>
+            </dt>
+        <dd>
+            <p id="faq3_desc" class="desc" style="display: inline-block;">
+                <h2>Yes , you should know basics of atleast one programming language to debug the code.</h2>
+            </p>
+        </dd>
+        <dt>
+              <button aria-expanded="false" aria-controls="faq4_desc"><h1>4.  Why we should participate in this event?</h1></button>
+            </dt>
+        <dd>
+            <p id="faq4_desc" class="desc" style="display: inline-block;">
+                <h2>It improves your coding skills . If you are willing to improve your coding, then you can join this event.</h2>
+            </p>
+        </dd>
+        <dt>
+                <button aria-expanded="false" aria-controls="faq4_desc"><h1>5.  Which language should i use for coding ?</h1></button>
+              </dt>
+        <dd>
+            <p id="faq4_desc" class="desc" style="display: inline-block;">
+                <h2>You can begin with any language but the preferred languages is C/C++ and Java. These all languages are easy to learn and very fast to execute.</h2>
+            </p>
+        </dd>
+    </dl>
+</body>
+
+</html>
