@@ -19,6 +19,9 @@ img {
     height: 80px;
     margin-left: 0%;
     filter: invert(100%);
+    position: absolute;
+    top: 5px;
+    left: 65px;
 }
 
 #logo1 {
